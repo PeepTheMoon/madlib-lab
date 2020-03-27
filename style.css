@@ -1,1 +1,4 @@
 /* default text box for the mad lib to visibility:hidden */
+.madlib-container {
+    display: none;
+}
