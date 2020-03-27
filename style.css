@@ -3,3 +3,25 @@
     display: none;
 }
 
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fletidor.ru%2Fobrazovanie%2Ftest-khorosho-li-vy-znaete-tvorchestvo-uilyama-shekspira.htm&psig=AOvVaw2iyHojAnIFqWqlATPqjIgG&ust=1585423442081000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjM2-Swu-gCFQAAAAAdAAAAABAN);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: seagreen;
+}
+
+ul {
+    text-align: justify;
+}
+
+button {
+    color: seagreen;
+    background-color: tan;
+    border-radius: 5px;
+    padding: 10px;
+
+}
