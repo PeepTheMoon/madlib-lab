@@ -22,12 +22,6 @@ ul {
     color: black;
 }
 
-ul li {
-    width: 10em;
-    float: left;
-}
-
-
 h1 {
     font-family: fantasy;
     font-size: 30px;
