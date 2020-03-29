@@ -1,27 +1,59 @@
 /* default text box for the mad lib to visibility:hidden */
+* {
+    box-sizing: border-box;
+}
+
 .mad-lib-container {
     display: none;
 }
 
-body{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fletidor.ru%2Fobrazovanie%2Ftest-khorosho-li-vy-znaete-tvorchestvo-uilyama-shekspira.htm&psig=AOvVaw2iyHojAnIFqWqlATPqjIgG&ust=1585423442081000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjM2-Swu-gCFQAAAAAdAAAAABAN);
+.main-image {
+    width:600px;
+    height: 100px; 
+    box-shadow: 2px 3px 3px gray;
 }
 
+body{
+    background-color: maroon;
+}
+
+ul {
+    font-family: fantasy;
+    color: black;
+}
+
+ul li {
+    width: 10em;
+    float: left;
+}
+
+
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-family: fantasy;
+    font-size: 30px;
     text-align: center;
-    color: seagreen;
+    color: black;
 }
 
 ul {
     text-align: justify;
 }
 
+p {
+    font-family: fantasy;
+    font-size: larger;
+}
+
 button {
-    color: seagreen;
-    background-color: tan;
+    color: black;
+    background-color: rgb(145, 102, 47);
     border-radius: 5px;
     padding: 10px;
-
+    font-family: fantasy;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 30px;
+    align-content: center;
+    box-shadow: 2px 2px 2px rgb(54, 54, 54);
+    border-color: black;
 }

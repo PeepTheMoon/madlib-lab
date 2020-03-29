@@ -7,6 +7,12 @@
     <title>A Shakespearean Madlib Tragedy</title>
 </head>
 <body>
+    <h1>
+        <img
+        class="main-image"
+        src=c:\Users\rachelscomputer\AlchemyLabs\bootcamp-prep\madlib-lab\Shakespear-cropped.png
+        />
+    </h1>
     <!--inputs for words to be replaced-->
     <section id="input-container">
         <h1>Throw in some words and get Shakespeareified!</h1>
@@ -25,13 +31,13 @@
                 </li>
                 <li>
                     <label>
-                        Noun
-                        <input id="noun3-input"/>
+                        Adjective
+                        <input id="adj1-input"/>
                     </label>
                 </li>
                 <li>
                     <label>
-                        Noun
+                        Noun, plural
                         <input id="noun4-input"/>
                     </label>
                 </li>
@@ -79,8 +85,8 @@
                 </li>
                 <li>
                     <label>
-                        Noun
-                        <input id="noun8-input"/>
+                        Adjective
+                        <input id="adj2-input" placeholer="Adjective"></input>
                     </label>
                 </li>
             </ul>
@@ -89,21 +95,21 @@
     </section>
     <!-- text of madlib (hidden first, but later visible)-->
     <section class="mad-lib-container" id="mad-lib-container">
-        <div>
-            To be, or not to be, that is the <span id="noun1-span"></span>:
-            Whether 'tis Nobler in the <span id="noun2-span"></span> to suffer
-            The Slings and Arrows of outrageous <span id="noun3-span"></span>,
-            Or to take Arms against a Sea of <span id="noun4-span"></span>,
-            And by <span id="verb1-span"></span> end them: to die, to sleep
-            No more; and by a <span id="verb2-span"></span>, to say we end
-            The <span id="noun5-span"></span>, and the thousand Natural shocks
-            That <span id="noun6-span"></span> is heir to? 'Tis a consummation
-            Devoutly to be <span id="verb3-span"></span>. To die, to sleep,
-            To sleep, perchance to <span id="verb4-span"></span>; aye, there's the rub,
-            For in that sleep of death, what <span id="noun7-span"></span> may come,
-            When we have shuffled off this mortal <span id="noun8-span"></span>,
-            Must give us pause.
-        </div> 
+        <p>
+            To be, or not to be, that is the <span id="noun1-span"></span>: <br />
+            Whether 'tis nobler in the <span id="noun2-span"></span> to suffer <br />
+            The slings and arrows of <span id="adj1-span"></span> fortune, <br />
+            Or to take <span id="noun4-span"></span> against a sea of troubles, <br />
+            And by <span id="verb1-span"></span> end them: to die, to sleep <br />
+            No more; and by a <span id="verb2-span"></span>, to say we end <br />
+            The <span id="noun5-span"></span>, and the thousand natural shocks <br />
+            That <span id="noun6-span"></span> is heir to? 'Tis a consummation <br />
+            Devoutly to be <span id="verb3-span"></span>. To die, to sleep, <br />
+            To sleep, perchance to <span id="verb4-span"></span>; aye, there's the rub, <br />
+            For in that sleep of death, what <span id="noun7-span"></span> may come, <br />
+            When we have shuffled off this <span id="adj2-span"></span> coil, <br />
+            Must give us pause. <br />
+        </p> 
     </section>
 </body>
 <script src="app.js"></script>
